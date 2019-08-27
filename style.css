@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color: darkslategray;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title{
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+table.social-media-container{
+    border: 1px solid #ffffff;
+    width: 100%;
+    border-spacing: 0;
+}
+.icon{
+   width: 20px;
+    height: 20px;
+    padding: 25px 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+}
+.linkedin{
+    background-image: url("assets/linkedin.png");
+}
+.facebook{
+
+}
+.social-media-container td:hover{
+    background-color: #ffffff;
+}
+.social-media-container td:hover .linkedin{
+    background-image: url("assets/linkedin-inverted.png");
+}
+
+
+
+.social-media-container th{
+    font-style: italic;
+    letter-spacing: 4px;
+    padding: 20px;
+    border-bottom: 1px solid #ffffff;
+
+}
+.social-media-container td:not(:last-child){
+    border-right: 1px solid #fff;
+}
+.social-media-container td:not(:last-child){
+
+}

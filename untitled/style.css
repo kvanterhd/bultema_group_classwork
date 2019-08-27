@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: dimgray;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title{
+    text-transform: uppercase;
+}
+table.social-media-container{
+    border: 1px solid #ffffff;
+    width: 100%;
+    border-spacing: 0;
+}
